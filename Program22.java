@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Program22_BankAccount {
+public class Program22 {
    private double balance;
 
-   public Program22_BankAccount(double var1) {
+   public Program22(double var1) {
       this.balance = var1;
    }
 
@@ -26,7 +26,7 @@ public class Program22_BankAccount {
 
    public static void main(String[] var0) {
       Scanner var1 = new Scanner(System.in);
-      Program22_BankAccount var2 = new Program22_BankAccount(0.0);
+      Program22 var2 = new Program22(0.0);
       System.out.println("Initial balance: " + var2.getBalance());
       System.out.print("Deposit amount: ");
       var2.deposit(var1.nextDouble());
